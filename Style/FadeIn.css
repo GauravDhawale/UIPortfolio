@@ -1,0 +1,52 @@
+@-webkit-keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.FadeIN {
+  -webkit-animation: fadeInAnimation ease 3s;
+          animation: fadeInAnimation ease 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.delay-05 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.delay-1 {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.delay-15 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.delay-2 {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.delay-25 {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+/*# sourceMappingURL=FadeIn.css.map */

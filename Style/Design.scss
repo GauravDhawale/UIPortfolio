@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Poppins-R;
+    src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-M;
+    src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #0D110F;
+    font-family: Poppins-R;
+    transition: 0.5s ease-in-out;
+}
+body{
+    background-color: #FDD584;
+    transition-delay: 0s;
+}
+.Project{
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Project h2{
+    font-family: Poppins-R;
+    font-size: 4vh;
+}
+.Project p{
+    font-family: Poppins-L;
+    font-size: 2.6vh;
+}
+.line{
+    width: 120px;
+    height: 0.5px;
+    background-color: #0D110F;
+    margin: 25px 0;
+}
+.PDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000007a;
+    color: white;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+}
+.PContainer{
+    margin-top: 4vh;
+    opacity: 0;
+}
+.PDetails p{
+    font-family: Poppins-EL;
+    font-size: 2vh;
+    width: 70%;
+    text-align: center;
+}
+.PDetails .line{
+    background-color: rgb(255, 255, 255);
+}
+#p1,#p2,#p3,#p4 {
+    background-size: cover;
+    background-position: center;
+    width: 60vw;
+    height: 37vw;
+    margin: 8vh;
+}
+#p3,#p4{
+    width: 26vw;
+    height: 26vw;
+}
+#p3{
+    background-image: url("/Images/Projects/Manaswika.png");
+}
+#p4{
+    background-image: url("/Images/Projects/Estate.png");
+}
+#p1{
+    background-image: url("/Images/Projects/Agasthya.png");
+}
+#p2{
+    background-image: url("/Images/Projects/G&S.png");
+}
+.PDetails h2{
+    font-size: 7vh;
+}
+#p3 h2,#p4 h2{
+    font-size: 5vh;
+}
+#p1:hover .PDetails{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+#p2:hover .PDetails{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+#p3:hover .PDetails{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+#p4:hover .PDetails{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+.poster{
+    display: flex;
+}
+/*img{
+    background-color: aliceblue;
+}*/

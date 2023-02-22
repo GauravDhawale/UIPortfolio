@@ -1,0 +1,86 @@
+#about {
+  width: 100vh;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about img {
+  width: 50vh;
+  margin: 2vh 0;
+}
+
+#about h2 {
+  margin: 4vh 0;
+  font-size: 4vh;
+  font-family: Poppins-L;
+}
+
+#about p {
+  width: 70vw;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: Poppins-EL;
+}
+
+#about h2:nth-child(4) {
+  margin: 10vh 0 5vh 0;
+}
+
+#skills {
+  width: 70vw;
+  font-family: Poppins-R;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.scard {
+  height: 120px;
+  width: 120px;
+  background-color: #FFF9E1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 500px;
+  margin: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  margin: 5vh;
+  padding: 2vh 8vh;
+  font-size: 2.3vh;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #ffaa00;
+  color: #ffffff;
+}
+
+#about button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=About.css.map */

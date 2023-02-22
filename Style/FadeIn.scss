@@ -1,0 +1,28 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.FadeIN{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.delay-05{
+    animation-delay: 1s;
+}
+.delay-1{
+    animation-delay: 2s;
+}
+.delay-15{
+    animation-delay: 3s;
+}
+.delay-2{
+    animation-delay: 4s;
+}
+.delay-25{
+    animation-delay: 5s;
+}
