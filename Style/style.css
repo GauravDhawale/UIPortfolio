@@ -115,4 +115,56 @@ a:hover {
 .socialHome a {
   margin: 0 2vh;
 }
+@media only screen and (min-width: 768px) {
+    .text h1{
+        font-family: Poppins-EL;
+        line-height: 80px;
+        font-size: 6.3vh;
+        opacity: 0;
+    }
+    .text p{
+        font-size: 2.3vh;
+    }
+    .text img{
+        width: 30px;
+    }
+    .socialHome img{
+        width: 3vh;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .text h1{
+        font-family: Poppins-EL;
+        line-height: 50px;
+        font-size: 5vh;
+        opacity: 0;
+    }
+    .text p{
+        font-size: 0.8rem;
+    }
+    .text img{
+        width: 30px;
+    }
+    .socialHome img{
+        width: 3vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .text h1{
+        font-family: Poppins-EL;
+        line-height: 30px;
+        font-size: 3vh;
+        opacity: 0;
+    }
+    .text p{
+        font-size: 0.5rem;
+    }
+    .text img{
+        width: 30px;
+    }
+    .socialHome img{
+        width: 3vh;
+    }
+}
 /*# sourceMappingURL=style.css.map */
