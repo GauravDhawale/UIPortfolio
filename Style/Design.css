@@ -173,4 +173,43 @@ body {
 /*img{
     background-color: aliceblue;
 }*/
+
+@media only screen and (min-width: 600px) {
+    .PDetails p{
+        font-size: 0.5rem;
+    }
+    .PContainer h2,#p3 h2,#p4 h2{
+        font-size: 3vh;
+    }
+    #p3 p,#p4 p{
+        font-size: 0.3rem;
+    }
+    #p1,#p2,#p3,#p4{
+        margin: 5vh;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .PDetails p{
+        font-size: 0.3rem;
+    }
+    .PContainer .line{
+        margin: 10px 0;
+    }
+    .PContainer h2{
+        font-size: 3vh;
+        margin: 0;
+    }
+    #p3 h2,#p4 h2{
+        font-size: 2vh;
+    }
+    #p3 p,#p4 p{
+        font-size: 0.2rem;
+    }
+    #p3 .line, #p4 .line{
+        width: 50px;
+    }
+    #p1,#p2,#p3,#p4{
+        margin: 2vh;
+    }
+}
 /*# sourceMappingURL=Design.css.map */
