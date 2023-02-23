@@ -1,11 +1,11 @@
 @font-face {
   font-family: Poppins-R;
-  src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+  src: url("./Fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
   font-family: Poppins-M;
-  src: url(./Fonts/Poppins/Poppins-Medium.ttf);
+  src: url("./Fonts/Poppins/Poppins-Medium.ttf");
 }
 
 * {
@@ -117,19 +117,19 @@ body {
 }
 
 #p3 {
-  background-image: url("/Images/Projects/Manaswika.png");
+  background-image: url("./Images/Projects/Manaswika.png");
 }
 
 #p4 {
-  background-image: url("/Images/Projects/Estate.png");
+  background-image: url("./Images/Projects/Estate.png");
 }
 
 #p1 {
-  background-image: url("/Images/Projects/Agasthya.png");
+  background-image: url("./Images/Projects/Agasthya.png");
 }
 
 #p2 {
-  background-image: url("/Images/Projects/G&S.png");
+  background-image: url("./Images/Projects/G&S.png");
 }
 
 .PDetails h2 {
